@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+/* Put custom css here */
+.btn {
+  /* @apply ...tailwind classNames */
+}
+
+.btn:hover {
+  /* @apply ...tailwind classNames */
+}
+
+/* From small screen to bigger screens */
+@screen sm {
+  .btn {
+      /* @apply */
+  }
+}
+
+@tailwind utilities;
