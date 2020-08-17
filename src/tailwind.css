@@ -1,20 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
 
-/* Put custom css here */
-.btn {
-  /* @apply ...tailwind classNames */
-}
+@import "tailwindcss/components";
+@import "antd/dist/antd.css";
 
-.btn:hover {
-  /* @apply ...tailwind classNames */
-}
-
-/* From small screen to bigger screens */
-@screen sm {
-  .btn {
-      /* @apply */
-  }
-}
-
-@tailwind utilities;
+@import "tailwindcss/utilities";
