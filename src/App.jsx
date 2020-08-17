@@ -22,8 +22,8 @@ function App() {
   );
   
   return (
-    <div className="App bg-black px-10">
-      <Input className="mt-4 bg-black" addonBefore="http://" addonAfter=".com" defaultValue="mysite" />
+    <div className="App bg-limegreen px-10">
+      <Input className="mt-4 text-blue-400" addonBefore="http://" addonAfter=".com" defaultValue="mysite" />
       <Input className="mt-4" addonBefore={selectBefore} addonAfter={selectAfter} defaultValue="mysite" />
       <Input addonAfter={<SettingOutlined />} defaultValue="mysite" />
       <Input addonBefore="http://" suffix=".com" defaultValue="mysite" />

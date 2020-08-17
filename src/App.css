@@ -30030,6 +30030,12 @@ div.ant-typography-edit-content.ant-typography-rtl {
   background-color: rgba(0, 0, 0, var(--bg-opacity));
 }
 
+.bg-limegreen {
+  --bg-opacity: 1;
+  background-color: #a8ff60;
+  background-color: rgba(168, 255, 96, var(--bg-opacity));
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
