@@ -12,7 +12,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "build:css": "postcss src/tailwind.css -o src/App.css",
+    "build:css": "postcss src/css/Base.css -o src/css/App.css",
     "prestart": "npm run build:css",
     "prebuild": "npm run build:css",
     "start": "react-scripts start",

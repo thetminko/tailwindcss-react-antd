@@ -1,34 +1,17 @@
-import React from 'react';
-import './App.css';
-import { Select, Input } from 'antd';
-import { SettingOutlined } from '@ant-design/icons';
+import React from "react";
+import { DatePicker, Button } from "antd";
 
-const { Option} = Select;
-
-function App() {
-  const selectBefore = (
-    <Select defaultValue="http://" className="select-before">
-      <Option value="http://">http://</Option>
-      <Option value="https://">https://</Option>
-    </Select>
-  );
-  const selectAfter = (
-    <Select defaultValue=".com" className="select-after">
-      <Option value=".com">.com</Option>
-      <Option value=".jp">.jp</Option>
-      <Option value=".cn">.cn</Option>
-      <Option value=".org">.org</Option>
-    </Select>
-  );
-  
-  return (
-    <div className="App bg-limegreen px-10">
-      <Input className="mt-4 text-blue-400" addonBefore="http://" addonAfter=".com" defaultValue="mysite" />
-      <Input className="mt-4" addonBefore={selectBefore} addonAfter={selectAfter} defaultValue="mysite" />
-      <Input addonAfter={<SettingOutlined />} defaultValue="mysite" />
-      <Input addonBefore="http://" suffix=".com" defaultValue="mysite" />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <h1 className="text-limegreen">Hello World</h1>
+    <DatePicker />
+    <Button
+      className="text-white bg-blue-700 ml-4 hover:bg-limegreen hover:border-gray-900"
+      type="primary"
+    >
+      Greet!
+    </Button>
+  </div>
+);
 
 export default App;

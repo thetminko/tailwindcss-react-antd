@@ -1,6 +1,11 @@
+/* tailwindcss base */
 @import "tailwindcss/base";
 
+/* tailwindcss components */
 @import "tailwindcss/components";
+
+/* antd */
 @import "antd/dist/antd.css";
 
+/* tailwindcss utilties */
 @import "tailwindcss/utilities";
